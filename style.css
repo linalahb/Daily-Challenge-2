@@ -101,6 +101,27 @@ a:hover {
  #apropos{
   margin: 0 auto;
   width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+nav li {
+  margin: 10px;
+  display:inline;
+}
+
+nav ul {
+  float: left;
+  margin-top: 25px;
+}
+
+#logo{
+  color: #fff;
+  font-size: 35px;
+  font-family: 'Pacifico', cursive;
+  float: left;
+  margin-left: 50px;
 }
 
 /* Mis en forme de la baseline */
@@ -124,3 +145,8 @@ a:hover {
   font-weight: lighter;
   text-decoration: none;
 }
+
+#baseline a:hover {
+  position: relative;
+  top:1px;
+  }
